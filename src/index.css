@@ -21,3 +21,27 @@ body {
   font-size: 4rem;
   margin-bottom: -25px;
 }
+
+.box-container {
+  width: 210px;
+  height: 70px;
+  background: #e3ffe0;
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+  border-radius: 10px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 700;
+}
+
+.box-container:hover {
+  transform: scale(1.01);
+}
+
+.small-icon {
+  font-size: 1.1rem;
+  margin-right: 5px;
+}
