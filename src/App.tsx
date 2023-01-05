@@ -19,6 +19,8 @@ function App() {
     <div className="container">
       <span className="icon">🤖</span>
       <h1>F*ck Robots.</h1>
+      <h3>Coming soon ...</h3>
+
       <LinkBox />
     </div>
   );
